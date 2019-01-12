@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\xiaohan\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\xiaohan\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_Parkour.-2140063859.00" t="ExcludeRecursive" />
+    <e p="D:\workSpace\unityWorkSpace\Parkour" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Background.cs" t="Include" />
+          <e p="Bricks.cs" t="Include" />
+          <e p="gameBase" t="Include">
+            <e p="GameManager.cs" t="Include" />
+            <e p="SoundEffectController.cs" t="Include" />
+          </e>
+          <e p="Gold.cs" t="Include" />
+          <e p="Hero.cs" t="Include" />
+          <e p="ui" t="Include">
+            <e p="Distance.cs" t="Include" />
+            <e p="ExpressionScore.cs" t="Include" />
+            <e p="JumpButton.cs" t="Include" />
+            <e p="ProgressBar.cs" t="Include" />
+            <e p="SlideButton.cs" t="Include" />
+            <e p="YPercentUi.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Parkour.sln" t="IncludeFlat" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

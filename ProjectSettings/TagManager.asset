@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - leftGround
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: backgroundLayer
+    uniqueID: 1566908181
+    locked: 0
+  - name: brickLayer
+    uniqueID: 1303844493
+    locked: 0
+  - name: playerLayer
+    uniqueID: 1870571961
+    locked: 0
+  - name: gold
+    uniqueID: 455517681
+    locked: 0
+  - name: effectLayer
+    uniqueID: 3337131445
+    locked: 0
