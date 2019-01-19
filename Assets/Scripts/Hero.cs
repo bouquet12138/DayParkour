@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Hero : MonoBehaviour
 {
-    public static Hero SInstance; //单例模式
+    public static Hero Instance; //单例模式
 
     public AudioClip JumpAudio; //跳的声音
     public AudioClip SecondJumpAudio; //二级跳的声音
@@ -33,7 +33,7 @@ public class Hero : MonoBehaviour
     /// </summary>
     private void Awake()
     {
-        SInstance = this;
+        Instance = this;
         mAnimator = GetComponent<Animator>(); //动画
         mRigidBody2D = GetComponent<Rigidbody2D>(); //刚体组件
         mBoxCollider2D = GetComponent<BoxCollider2D>(); //盒子碰撞体
@@ -86,7 +86,7 @@ public class Hero : MonoBehaviour
             {
                 mTwoJumpNum = 1; //又可以二级跳了
                 mBoxCollider2D.size = mInitBox; //恢复碰撞体尺寸
-              //  mSpriteRenderer.sprite = RunSprite; //设为run图片
+                //  mSpriteRenderer.sprite = RunSprite; //设为run图片
                 SetCurrentState(RUN); //当前状态跑
             }
         }
@@ -117,14 +117,14 @@ public class Hero : MonoBehaviour
         if (GetCurrentState() == RUN) //如果当前状态为跑
         {
             SetCurrentState(JUMP);
-            SoundEffectController.PlaySound(JumpAudio, transform.position); //播放音效
+            SoundEffectController.PlaySound(JumpAudio); //播放音效
             mRigidBody2D.velocity = new Vector2(0, 9f); //来个向上的速度
         }
         else if ((GetCurrentState() == JUMP || GetCurrentState() == DROP) && mTwoJumpNum > 0) //如果不是二级跳
         {
             mTwoJumpNum--; //可以二级跳的数目减减
             SetCurrentState(TWO_JUMP); //设置当前状态为二级跳
-            SoundEffectController.PlaySound(SecondJumpAudio, transform.position); //播放二级跳音效
+            SoundEffectController.PlaySound(SecondJumpAudio); //播放二级跳音效
             mRigidBody2D.velocity = new Vector2(0, Mathf.Max(6f, mRigidBody2D.velocity.y + 4)); //来个向上的速度
         }
     }

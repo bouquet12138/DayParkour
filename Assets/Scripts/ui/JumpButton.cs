@@ -9,7 +9,7 @@ namespace ui
         /// </summary>
         public void OnJumpDown()
         {
-            Hero.SInstance.Jump(); //玩家跳跃
+            Hero.Instance.Jump(); //玩家跳跃
         }
     }
 }

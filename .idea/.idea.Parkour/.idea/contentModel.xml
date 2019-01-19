@@ -6,15 +6,31 @@
     <e p="D:\workSpace\unityWorkSpace\Parkour" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Resources" t="Include">
+          <e p="map1.txt" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
           <e p="Background.cs" t="Include" />
-          <e p="Bricks.cs" t="Include" />
+          <e p="bean" t="Include">
+            <e p="LayerInfo.cs" t="Include" />
+          </e>
           <e p="gameBase" t="Include">
             <e p="GameManager.cs" t="Include" />
+            <e p="MapManager.cs" t="Include" />
+            <e p="ParticleAutoDestruction.cs" t="Include" />
             <e p="SoundEffectController.cs" t="Include" />
           </e>
-          <e p="Gold.cs" t="Include" />
+          <e p="good" t="Include">
+            <e p="Gold.cs" t="Include" />
+            <e p="Jelly.cs" t="Include" />
+          </e>
           <e p="Hero.cs" t="Include" />
+          <e p="map" t="Include">
+            <e p="BaseMap.cs" t="Include" />
+            <e p="BrickMap.cs" t="Include" />
+            <e p="GoldMap.cs" t="Include" />
+            <e p="JellyMap.cs" t="Include" />
+          </e>
           <e p="ui" t="Include">
             <e p="Distance.cs" t="Include" />
             <e p="ExpressionScore.cs" t="Include" />

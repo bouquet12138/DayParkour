@@ -52,7 +52,7 @@ namespace ui
             {
                 GameObject numImage = Instantiate(NumObject, transform); //生成一个数字
                 numImage.GetComponent<RectTransform>().anchoredPosition =
-                    new Vector2(-i * mNumWidth * 0.85f, -3); //设置数字的位置
+                    new Vector2(-i * mNumWidth * 0.85f, -2); //设置数字的位置
             }
 
             for (int i = 0; i < digit; i++)

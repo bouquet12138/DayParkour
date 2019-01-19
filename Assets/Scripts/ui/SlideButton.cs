@@ -10,7 +10,7 @@ namespace ui
         /// </summary>
         public void OnSlideDown()
         {
-            Hero.SInstance.Slide(); //玩家下滑
+            Hero.Instance.Slide(); //玩家下滑
         }
 
         /// <summary>
@@ -19,7 +19,7 @@ namespace ui
         /// <param name="_eventData"></param>
         public void OnPointerExit(PointerEventData _eventData)
         {
-            Hero.SInstance.SlideRestore(); //下滑恢复 
+            Hero.Instance.SlideRestore(); //下滑恢复 
         }
     }
 }

@@ -17,5 +17,14 @@ namespace gameBase
         {
             AudioSource.PlayClipAtPoint(_audio, _position); //在此处播放音效
         }
+
+        /// <summary>
+        /// 播放音效
+        /// </summary>
+        /// <param name="_audio">要播放的音效</param>
+        public static void PlaySound(AudioClip _audio)
+        {
+            AudioSource.PlayClipAtPoint(_audio, new Vector3(0, 0, 0)); //在此处播放音效
+        }
     }
 }

@@ -229,7 +229,7 @@ TextureImporter:
         serializedVersion: 2
         x: 103
         y: 200
-        width: 123
+        width: 41
         height: 309
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -239,6 +239,46 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 26b2a2255ac742841a8e2c2b77ba1921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_7
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 200
+        width: 41
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262aa189a483e8843b7735517e01b945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brick_8
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 200
+        width: 41
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a353de8b2e1da674c81366e91380cb83
       vertices: []
       indices: 
       edges: []
